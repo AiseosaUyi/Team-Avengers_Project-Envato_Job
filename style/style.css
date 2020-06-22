@@ -960,6 +960,13 @@ footer {
 }
 /* tablet view */
 @media screen and (max-width: 776px) {
+  nav .hamburger {
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-right: 90px;
+  }
   .article-cards .crd {
     height: 450px;
     flex: 0 0 calc(50% - 20px);
@@ -1153,12 +1160,6 @@ h2 {
 }
 
 header {
-  /*   background-color: var(--primary-blue);
-  margin-top: 80px;
-  color: #fff;
-  padding: 150px 0;
-  position: relative;
-  margin-bottom: 250px; */
   display: none;
 }
 
@@ -1248,7 +1249,7 @@ h1 {
     color: #fff;
   }
 }
-*/ @media screen and (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .container {
     justify-content: center;
     align-items: center;
@@ -1257,6 +1258,117 @@ h1 {
   header {
     display: none;
   }
+  /* style for job listing section */
+  .job-list {
+    height: auto;
+    text-align: center;
+  }
+  /* .job-list h2 {
+    width: 350px;
+    margin: 30px 0 20px 90px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #3a3a3a;
+  } */
+  /* .job-list .list-cards {
+} */
+  .job-list .jd-crd {
+    border: 0.5px solid #2a88cc;
+    margin: 20px;
+    display: block;
+    /* width: 100%; */
+  }
+  /* .list-cards {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-list .jd-crd {
+    width: 100%;
+  } */
+  /* .jd-crd .crd-top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px 5px 0 5px;
+  line-height: 2;
+} */
+  /* .crd-top .desc {
+  display: flex;
+  flex-direction: column;
+} */
+  /* .crd-top .desc h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.08em;
+  color: #3a3a3a;
+  margin-left: -20px;
+} */
+  /* .desc .cpn-nm {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.06em;
+  color: #2a88cc;
+  margin-left: -100px;
+} */
+  /* .desc .location {
+  margin: -10px 25px 0 0;
+  font-size: 12.5px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #3a3a3a;
+} */
+  /* .crd-top .cond {
+  border-radius: 5px;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+} */
+  /* .crd-top .desc .marker {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+} */
+  /* .jd-crd img {
+  width: 40px;
+  height: 25px;
+} */
+  .jd-crd .crd-btm {
+    background: #f7f7f7;
+    border: 1px solid rgba(42, 136, 204, 0.3);
+    box-sizing: border-box;
+    padding: 6px;
+  }
+  /* .crd-btm .cat {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #2a88cc;
+} */
+  /* .cat span {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #3a3a3a;
+} */
 }
 
 @media screen and (max-width: 568px) {
